@@ -12,6 +12,7 @@ async function feed(root, args, context, info) {
         where,
         skip: args.skip,
         first: args.first,
+        orderBy: args.orderBy,
     })
 
     return links
